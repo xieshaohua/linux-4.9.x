@@ -164,7 +164,7 @@ static void __init smdk2440_map_io(void)
 
 static void __init smdk2440_init_time(void)
 {
-	s3c2440_init_clocks(16934400);
+	s3c2440_init_clocks(12000000);
 	samsung_timer_init();
 }
 
